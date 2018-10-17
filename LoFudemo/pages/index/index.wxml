@@ -1,0 +1,37 @@
+<view class="container">
+ 
+  <view class="selection home-banner">
+    <swiper indicator-dots="true"
+      autoplay="true" interval="3000" duration="1000">
+      <block class="selection-banner" wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" width="355" height="150"/>
+        </swiper-item>
+      </block>
+    </swiper>
+	
+  </view>
+
+<!-- icon -->
+  <view class='icon'>
+      <image class="icon-left" src='../../images/home-icon-01.png' data-type="1" bindtap="thouch"> </image>
+      <!-- 已订费用 -->
+      <image class="icon-right" src='../../images/home-icon-02.png' data-type="2" bindtap="thouch"> </image>
+  </view>
+
+<!-- 品牌详情 -->
+<view class='home-section'>
+<navigator open-type='navigate' url='../Plan/index'>
+<button class='home-detail'>查看详情</button>
+</navigator>
+</view>
+
+<!-- 业务推广 -->
+<navigator open-type='navigate' url='../Plan/index'>
+<view class='home-section home-section-two'>
+</view>
+
+</navigator>
+
+
+</view>

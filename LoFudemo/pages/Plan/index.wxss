@@ -1,0 +1,33 @@
+.selection {
+  border-bottom: 5px solid #ddd;
+  background-color: #999;
+  height: 600rpx;
+  margin-top: 20%;
+}
+.selection-one{
+  text-align: center;
+   color: #59a0d7;
+}
+.selection-two{
+  text-align: center;
+  margin-top: 50rpx;
+  color: #59a0d7;
+  }
+swiper{
+   height: 600rpx;
+}
+.selection-three{
+  background-color: #59a0d7;
+  text-align: center;
+  border-radius: 20rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  color: #ffffff;
+  margin-top: 30rpx;
+}
+.selection-four{
+  background-color: #d6d6d6;
+}
+.selection-four text{
+  display: block;
+}

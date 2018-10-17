@@ -1,0 +1,39 @@
+<view class='box'>
+<scroll-view scroll-y='true' style="height:{{height}}px" bindscrolltolower='lower'   >
+  <view
+  wx:for="{{res}}"
+   data-id="{{index}}" 
+   wx:key="{{index}}"
+   class='item'
+   wx:for="{{activityInfo}}"
+   >
+  <!-- {{item}} -->
+  <view class='item-image'></view>
+ 
+
+ 
+   <view class='item-price'>
+    <text class='money'>价格：{{item.price}}￥</text>
+    <text class='money'>活动时间:{{item.time}}</text>
+     <!-- 
+  <button>提交订单</button> -->
+  </view> 
+
+
+<view class='item-recommend'>
+<view>  
+ 当前状态：已订购<icon type='success' size='20'></icon>
+  <text>活动场地：{{item.field}}</text>
+ <text>活动内容：{{item.content}}</text>
+</view>
+
+</view>
+ 
+
+
+
+  </view>
+</scroll-view>
+<scroll-view scroll-y='true' lower-threshold="200"  style="height:100%" bindscrolltolower='lower'>
+</scroll-view>
+</view> 

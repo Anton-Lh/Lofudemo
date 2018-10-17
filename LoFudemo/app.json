@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/index",
+    "pages/my/index",
+    "pages/loading/index",
+    "pages/detail/detail",
+    "pages/Purchased/index",
+    "pages/Plan/index",
+    "pages/pay/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "逻符科技",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#b38829",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+   "list": [
+    {
+      "pagePath": "pages/index/index",
+        "iconPath": "images/footer-icon-01.png",
+        "selectedIconPath": "images/footer-icon-01-active.png",
+      "text": "逻符创意"
+    },
+    {
+      "pagePath": "pages/loading/index",
+      "iconPath": "images/footer-icon-02.png",
+      "selectedIconPath": "images/footer-icon-02-active.png",
+      "text": "最新活动"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "iconPath": "images/footer-icon-04.png",
+      "selectedIconPath": "images/footer-icon-04-active.png",
+      "text": "我的"
+    }
+  ]
+  }
+}

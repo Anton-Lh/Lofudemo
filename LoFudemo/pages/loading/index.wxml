@@ -1,0 +1,37 @@
+<view class='box'>
+<scroll-view scroll-y='true' style="height:{{height}}px" bindscrolltolower='lower'   >
+  <view
+  wx:for="{{res}}"
+   data-id="{{index}}" 
+   wx:key="{{index}}"
+   class='item'
+   wx:for="{{activityInfo}}"
+   bindtap='gotableinfo'
+   >
+  <!-- {{item}} -->
+  <view class='item-image'></view>
+ 
+
+ 
+   <view class='item-price'>
+    <text class='money'>活动价格：{{item.price}}￥</text>
+     <navigator url='../detail/detail' open-type='navigate'><button>查看详情</button> </navigator>
+     <!-- 
+  <button>提交订单</button> -->
+  </view> 
+
+
+<view class='item-recommend'>
+ <text>活动时间：{{item.time}}</text>
+ <text>活动场地：{{item.field}}</text>
+  <text>活动内容：{{item.content}}</text>
+</view>
+ 
+
+
+
+  </view>
+</scroll-view>
+<scroll-view scroll-y='true' lower-threshold="200"  style="height:100%" bindscrolltolower='lower'>
+</scroll-view>
+</view> 

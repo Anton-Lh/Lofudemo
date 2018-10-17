@@ -1,0 +1,28 @@
+<view class='container'>
+<text class='selection-one'>策划活动</text>
+<text class='selection-two '>找公关和活动，逻符推一推</text>
+<!-- 轮播区域 -->
+
+ <view class='selection'>
+  <swiper indicator-dots="true"
+      autoplay="true" interval="3000" duration="1000">
+      <block class="selection-banner" wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+
+      </block>
+    </swiper>
+ </view>
+ <!-- 了解更多详情 -->
+	<view class='selection-three'>联系我们</view>
+  <view class='selection-four'>
+  <text style='color:#59a0d7'> 工作时间：</text>
+  <text>周一-周五：8：30-17：30</text>
+  <text>周六-周日：9：00-17：00</text>
+   <text style='color:#59a0d7'> 联系方式：</text>
+ <text> 客服热线：400-xx6-8888</text>
+ <text> 联系邮箱：abc@qq.com</text>
+ 
+  </view>
+</view>

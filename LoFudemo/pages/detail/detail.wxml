@@ -1,0 +1,28 @@
+<view class='container'>
+<!-- 头部活动图片 -->
+
+<view class='detail-one'>
+
+<view class='detail-img'>
+<text>活动详情图片</text>
+<image></image>
+</view>
+
+</view>
+<!-- 活动详情 -->
+<view class='detail-two'>
+<text>活动简称：会展策划管理</text>
+<text>活动价格：999￥</text>
+<text>活动日期：X月X日 09：00</text>
+<text>活动场地：深圳逻符科技有限公司</text>
+<!--活动内容介绍 -->
+<view class='detail-three'>
+<text>活动内容:活动的主要构成还是聚餐团建。开启“约定的踏青之旅”活动后，按会展的导航指引，就可以开启活动剧情啦。
+深圳专业公关礼仪活动公司，一站式全案服务,策划+创意+设计+执行,服务领域包含了大型会议,公关活动,礼仪庆典,新品发布会等. </text>
+</view>
+<navigator url='../pay/index' open-type='navigate'>
+<button> <icon type='success' size='30'></icon>提交订单</button>
+</navigator>
+<!--  -->
+</view>
+</view>

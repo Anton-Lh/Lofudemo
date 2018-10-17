@@ -1,0 +1,48 @@
+/* pages/log/logs.wxss */
+.item{
+  text-align:center;
+  border:1px solid #ccc;
+  /* style="height:{{(height/1)-1}}px; line-height:{{(height/1)-1}}px;" */
+  color: #000000;
+  width: 710rpx;
+  height: 540rpx;
+  display: flex;
+  flex-direction: row; 
+   flex-wrap: wrap;
+  margin: 10px auto;
+  border-radius: 20rpx;
+}
+.item-image{
+    width:310rpx;
+    /* border:1px solid red; */
+     order: 1;
+     background-color:#efa965;
+
+}
+.item-price{
+  order: 2;
+  width:380rpx;
+  border: 1px solid green;
+}
+.item-price button {
+  background-color: sandybrown;
+  color: #ffffff;
+  margin-top: 50rpx;
+}
+ .money {
+line-height: 125rpx;
+display: block;
+font-size: 30rpx;
+}
+.item-recommend{
+ order: 3;
+  width:710rpx;
+  height: 250rpx;
+  /* border:1px solid brown; */
+  overflow: hidden;
+}
+.item-recommend text{
+    font-size: 26rpx;
+    display: block;
+    text-align: left;
+}

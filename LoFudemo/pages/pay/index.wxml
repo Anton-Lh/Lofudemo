@@ -1,0 +1,26 @@
+<view class="container" >
+<view class='pay'>
+  <view class="info_list">
+    <block wx:for="{{userListInfo}}">
+        <view class="weui_cell">
+            <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p"> {{item.text}} </view>
+            </view>
+        </view>
+    </block>
+    <text style='float:left;line-height:100rpx;'>共计</text>
+    <text style='float:right;line-height:100rpx;color:#ee4545'>$999</text>
+  </view>
+
+</view>
+<!-- 支付方式 -->
+<view class='pay-info'>
+
+      <button type='primary' bindtap='payt' >立即支付</button>
+   
+</view>
+
+
+
+</view>
